@@ -5,8 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-<<<<<<< HEAD
-taevon = User.new(user_name: "Taevon")
-ny = City.new(name: "New York")
-=======
->>>>>>> parent of 3e527c4... server
+User.destroy_all
+User.create(user_name:"taevon")
